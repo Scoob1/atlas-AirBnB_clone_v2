@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""This module starts a Flask web app with two routes"""
 from flask import Flask
 
 
