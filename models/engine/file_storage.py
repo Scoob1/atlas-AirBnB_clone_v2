@@ -72,3 +72,8 @@ class FileStorage:
         message = "if you were using the database, this would add "
         message += f"Amenity {amenity_id} to Place {place_id}."
         print(message)
+
+
+    def close(self):
+        """Call reload() method for deserializating the JSON file to objects"""
+        self.reload()
